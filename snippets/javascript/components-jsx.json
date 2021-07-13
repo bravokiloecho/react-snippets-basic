@@ -1,0 +1,32 @@
+{
+  "reactStatelessPropsClassName": {
+    "prefix": "rscpc",
+    "body": [
+      "import React from 'react'",
+      "import PropTypes from 'prop-types'",
+      "",
+      "",
+      "const ${1:${TM_FILENAME_BASE}} = ({ className }) => {",
+      "\treturn (",
+      "\t\t<div",
+      "\t\t\tclassName={[",
+      "\t\t\t\tclassName",
+      "\t\t\t].join(' ')}",
+      "\t\t>",
+      "\t\t\t$2",
+      "\t\t</div>",
+      "\t)",
+      "}",
+      "\n${1:${TM_FILENAME_BASE}}.propTypes = {",
+      "\tclassName: PropTypes.string,",
+      "}",
+      "",
+      "${1:${TM_FILENAME_BASE}}.defaultProps = {",
+      "\tclassName: null,",
+      "}",
+      "",
+      "export default ${1:${TM_FILENAME_BASE}}\n"
+    ],
+    "description": "Creates a React component with PropTypes and a className and ES6 module system"
+  }
+}

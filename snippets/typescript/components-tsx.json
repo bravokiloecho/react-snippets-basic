@@ -1,0 +1,43 @@
+{
+  "reactComponentBasic": {
+    "prefix": "rcp",
+    "body": [
+      "import React from 'react'",
+      "\n\n",
+      "\nconst ${1:${TM_FILENAME_BASE}} = () => {",
+      "\treturn (",
+      "\n\t\t<div>",
+      "\n\t\t\t$2",
+      "\n\t\t</div>",
+      "\n\t)\n}",
+      "\n\n",
+      "\n\nexport default ${1:${TM_FILENAME_BASE}}\n"
+    ],
+    "description": "Basic stateless component"
+  },
+  "reactComponentPropsClassName": {
+    "prefix": "rcpc",
+    "body": [
+      "import React from 'react'",
+      "\n\n",
+      "type ${TM_FILENAME_BASE}}Props = {",
+      "\n\tclassName?: string | undefined,",
+      "\n}",
+      "\nconst ${1:${TM_FILENAME_BASE}} = ({",
+      "\tclassName,",
+      "}: ${TM_FILENAME_BASE}}Props) => {",
+      "\n\treturn (",
+      "\n\t\t<div",
+      "\n\t\t\tclassName={[",
+      "\n\t\t\t\tclassName && className",
+      "\n\t\t\t].join(' ')}",
+      "\n\t\t>",
+      "\n\t\t\t$2",
+      "\n\t\t</div>",
+      "\n\t)\n}",
+      "\n\n",
+      "\n\nexport default ${1:${TM_FILENAME_BASE}}\n"
+    ],
+    "description": "Creates a React component with a className prop and ES6 module system"
+  }
+}

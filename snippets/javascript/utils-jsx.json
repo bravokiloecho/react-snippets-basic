@@ -1,0 +1,12 @@
+{
+	"Prop Type defaults": {
+    "prefix": "ptdf",
+		"body": [
+			"${1:${TM_FILENAME_BASE}}.defaultProps = {",
+			"\t${2:prop}: ${3:default},",
+			"}",
+			""
+		],
+		"description": "Default props"
+	}
+}

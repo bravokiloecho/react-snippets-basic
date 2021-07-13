@@ -1,0 +1,23 @@
+{
+  "Function prop type": {
+    "prefix": "rpf",
+    "body": [
+      "${1:onChange}(value: string): void,"
+    ],
+    "description": "A prop that takes a function (eg onChange)"
+  },
+  "Children prop type": {
+    "prefix": "rpch",
+    "body": [
+      "children: React.ReactNode,"
+    ],
+    "description": "Children prop type"
+  },
+  "Classname prop type": {
+    "prefix": "rpcl",
+    "body": [
+      "className?: string | undefined,"
+    ],
+    "description": "Classname prop type"
+  }
+}
