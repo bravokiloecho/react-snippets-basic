@@ -1,10 +1,35 @@
 {
+  "reactStateless": {
+    "prefix": "rscp",
+    "body": [
+      "import React from 'react'",
+      "import PropTypes from 'prop-types'",
+      "",
+      "const ${1:${TM_FILENAME_BASE}} = () => {",
+      "\treturn (",
+      "\t\t<div>",
+      "\t\t\t$2",
+      "\t\t</div>",
+      "\t)",
+      "}",
+      "",
+      "${1:${TM_FILENAME_BASE}}.propTypes = {",
+      "\t",
+      "}",
+      "",
+      "${1:${TM_FILENAME_BASE}}.defaultProps = {",
+      "\t",
+      "}",
+      "",
+      "export default ${1:${TM_FILENAME_BASE}}\n"
+    ],
+    "description": "Creates a basic React component with PropTypes"
+  },
   "reactStatelessPropsClassName": {
     "prefix": "rscpc",
     "body": [
       "import React from 'react'",
       "import PropTypes from 'prop-types'",
-      "",
       "",
       "const ${1:${TM_FILENAME_BASE}} = ({ className }) => {",
       "\treturn (",
@@ -17,7 +42,8 @@
       "\t\t</div>",
       "\t)",
       "}",
-      "\n${1:${TM_FILENAME_BASE}}.propTypes = {",
+      "",
+      "${1:${TM_FILENAME_BASE}}.propTypes = {",
       "\tclassName: PropTypes.string,",
       "}",
       "",

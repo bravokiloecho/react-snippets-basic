@@ -48,11 +48,4 @@
 		],
 		"description": "React useMemo"
 	},
-	"React import component": {
-    "prefix": "rimp",
-		"body": [
-			"import ${1:Component} from '@/$2${1:Component}'"
-		],
-		"description": "React import component"
-	}
 }

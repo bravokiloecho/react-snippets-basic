@@ -1,22 +1,29 @@
 {
   "Function prop type": {
-    "prefix": "rpf",
+    "prefix": "rtf",
     "body": [
-      "${1:onChange}(value: string): void,"
+      "${1:onChange}(value: string)$2: void,"
     ],
     "description": "A prop that takes a function (eg onChange)"
   },
-  "Children prop type": {
-    "prefix": "rpch",
+  "Boolean prop type": {
+    "prefix": "rtb",
     "body": [
-      "children: React.ReactNode,"
+      "${1:isSomething}${2:?}: boolean,"
+    ],
+    "description": "A prop that takes a boolean"
+  },
+  "Children prop type": {
+    "prefix": "rtch",
+    "body": [
+      "children$1: React.ReactNode,"
     ],
     "description": "Children prop type"
   },
   "Classname prop type": {
-    "prefix": "rpcl",
+    "prefix": "rtcn",
     "body": [
-      "className?: string | undefined,"
+      "className${1:?}: string | undefined,"
     ],
     "description": "Classname prop type"
   }
