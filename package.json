@@ -1,7 +1,7 @@
 {
-	"name": "react-snippets",
-	"description": "Code snippets for Reactjs development in ES6 syntax",
-	"version": "1.0.0",
+	"name": "react-snippets-basic",
+	"description": "Code snippets for Reactjs development in ES6 syntax in JS and TS",
+	"version": "0.1.0",
 	"displayName": "Reactjs code snippets",
 	"publisher": "bravokiloecho",
 	"icon": "images/react.png",
@@ -30,16 +30,24 @@
 				"path": "./snippets/utils-global.json"
 			},
 			{
+				"language": "typescriptreact",
+				"path": "./snippets/typescript/components-tsx.json"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./snippets/typescript/utils-tsx.json"
+			},
+			{
 				"language": "javascriptreact",
-				"path": "./snippets/javascript/components.json"
+				"path": "./snippets/javascript/components-jsx.json"
 			},
 			{
-				"language": "typescriptreact",
-				"path": "./snippets/typescript/components.json"
+				"language": "javascriptreact",
+				"path": "./snippets/javascript/utils-jsx.json"
 			},
 			{
-				"language": "typescriptreact",
-				"path": "./snippets/typescript/utils.json"
+				"language": "javascriptreact",
+				"path": "./snippets/javascript/propTypes-jsx.json"
 			}
 		]
 	}
