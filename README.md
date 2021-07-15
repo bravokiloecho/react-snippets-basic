@@ -4,11 +4,11 @@
 
 ---
 
-[![Version](https://vsmarketplacebadge.apphb.com/version/xabikos.ReactSnippets.svg)](https://marketplace.visualstudio.com/items?itemName=xabikos.ReactSnippets)
-[![Installs](https://vsmarketplacebadge.apphb.com/installs/xabikos.ReactSnippets.svg)](https://marketplace.visualstudio.com/items?itemName=xabikos.ReactSnippets)
-[![Ratings](https://vsmarketplacebadge.apphb.com/rating/xabikos.ReactSnippets.svg)](https://marketplace.visualstudio.com/items?itemName=xabikos.ReactSnippets)
+[![Version](https://vsmarketplacebadge.apphb.com/version/elwynco.react-snippets-basic.svg)](https://marketplace.visualstudio.com/items?itemName=elwynco.react-snippets-basic)
+[![Installs](https://vsmarketplacebadge.apphb.com/installs/elwynco.react-snippets-basic.svg)](https://marketplace.visualstudio.com/items?itemName=elwynco.react-snippets-basic)
+[![Ratings](https://vsmarketplacebadge.apphb.com/rating/elwynco.react-snippets-basic.svg)](https://marketplace.visualstudio.com/items?itemName=elwynco.react-snippets-basic)
 
-This extension contains code snippets for [Reactjs][react] and is based on the awesome [babel-sublime-snippets][babelsublime] package.
+This extension contains code snippets for ReactJS in JavaScript and TypeScript. It borrows heavily from [this extension](https://marketplace.visualstudio.com/items?itemName=xabikos.ReactSnippets) by [xabikos](https://github.com/xabikos/vscode-react).
 
 ## Installation
 
