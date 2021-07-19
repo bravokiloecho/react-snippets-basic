@@ -197,3 +197,6 @@ FakesAssemblies/
 
 # Publish scripts
 *.vsix
+
+# Mac files
+.DS_Store
