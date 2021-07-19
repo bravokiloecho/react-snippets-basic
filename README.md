@@ -28,6 +28,7 @@ Below is a list of all available snippets organised by JSX, TSX, and some that w
 
 |  Trigger  | Content                                                          |
 | --------: | ---------------------------------------------------------------- |
+|    `rch→` | Start custom hook                                                |
 |  `rimpa→` | Absolute import (import El from '@/El)                           |
 |  `rimpr→` | Relative import (import El from './El)                           |
 |    `cna→` | Classnames as array                                              |
