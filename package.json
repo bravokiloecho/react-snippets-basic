@@ -1,7 +1,7 @@
 {
 	"name": "react-snippets-basic",
 	"description": "Code snippets for Reactjs development in ES6 syntax in JS and TS",
-	"version": "0.4.0",
+	"version": "0.5.0",
 	"displayName": "Reactjs code snippets",
 	"publisher": "elwynco",
 	"icon": "images/react.png",
