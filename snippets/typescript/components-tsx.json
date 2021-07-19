@@ -31,7 +31,7 @@
       "\treturn (",
       "\t\t<div",
       "\t\t\tclassName={[",
-      "\t\t\t\tclassName && className",
+      "\t\t\t\tclassName ? className : null,",
       "\t\t\t].join(' ')}",
       "\t\t>",
       "\t\t\t$3",
