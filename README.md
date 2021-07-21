@@ -55,8 +55,8 @@ The output of these change based on the filetype (`.jsx` vs `.tsx`)
 | -------:  | ---------------------------------------------------------------- |
 |    `rtf→` | function prop type                                               |
 |    `rtb→` | boolean prop type                                                |
-|    `rts→` | string prop type                                                |
-|    `rtn→` | number prop type                                                |
+|    `rts→` | string prop type                                                 |
+|    `rtn→` | number prop type                                                 |
 |   `rtch→` | children prop type                                               |
 |   `rtcn→` | className prop type                                              |
 
