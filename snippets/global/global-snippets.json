@@ -5,7 +5,7 @@
 			"import React from 'react'",
 			"",
 			"const ${1:${TM_FILENAME_BASE}} = () => {",
-			"\t",
+			"\t$2",
 			"}",
 			"",
 			"export default ${1:${TM_FILENAME_BASE}}\n"
