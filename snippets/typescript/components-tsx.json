@@ -22,7 +22,7 @@
       "import React from 'react'",
       "",
       "type ${1:${TM_FILENAME_BASE}}Props = {",
-      "\t$2className?: string | undefined,",
+      "\t$2className?: string,",
       "}",
       "",
       "const ${1:${TM_FILENAME_BASE}} = ({",
